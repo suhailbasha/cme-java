@@ -6,9 +6,9 @@ public class Runner {
 
   public static void main(String[] args) {
 
-    final String KEY_PATH = "path of the JSON credentials file";
-    final String PROJECT_ID = "Google project id";
-    final String SUBSCRIPTION_ID = "Pub Sub subscription ID";
+    final String KEY_PATH = "https://github.com/suhailbasha/cme-java/blob/master/sample-259507-d68a745117b4.json";
+    final String PROJECT_ID = "sample-259507";
+    final String SUBSCRIPTION_ID = "sub_one";
 
     OrderedPubSubListener listener = new OrderedPubSubListener(KEY_PATH, PROJECT_ID, SUBSCRIPTION_ID);
 
